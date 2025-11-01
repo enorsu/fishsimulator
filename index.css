@@ -24,6 +24,19 @@ body {
 .download:active {
     font-size: 1px;
 }
+.download2 {
+    padding: 10px;
+    background-color: aqua;
+    text-decoration: none;
+    transition-duration: 1s;
+    color: black;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.download2:hover {
+    background-color: blue;
+    scale: 5 1;
+    
+}
 
 .patch-notes {
     text-align: center;
