@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.download {
+    padding: 10px;
+    background-color: aqua;
+    text-decoration: none;
+    transition-duration: 1s;
+    color: black;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.download:hover {
+    rotate: 3600deg;
+    font-size: 100px;
+}
+.download:active {
+    font-size: 1px;
+}
+
+.patch-notes {
+    text-align: center;
+    border: 1px white solid;
+    width: 500px;
+}
+img {
+    width: 400px;
+}
